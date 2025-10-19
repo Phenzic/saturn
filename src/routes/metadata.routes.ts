@@ -24,4 +24,7 @@ metadataRouter.post('/metadata/upload', async (_req, res) => {
   }
 });
 
+// Client-facing: GET /api/contracts/:name -> returns public details from DB
+// Note: public read is wired in a separate router in contracts.routes.ts for clarity
+
 

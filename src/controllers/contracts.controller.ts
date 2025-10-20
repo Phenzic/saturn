@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import { z } from 'zod';
 import { uploadArtifactsDirect } from '../services/artifacts.service';
-import { generateContractMetadata, insertContractMetadata, getPublicContractDetails } from '../services/contractsMetadata.service';
+import { generateContractMetadata, insertContractMetadata, getPublicContractDetails } from '../services';
 
 const uploadArtifactsSchema = z.object({
   abi: z.array(z.any()),

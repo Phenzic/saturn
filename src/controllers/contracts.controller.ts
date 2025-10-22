@@ -8,6 +8,7 @@ const uploadArtifactsSchema = z.object({
   bytecode: z.string().min(1),
 });
 
+
 const generateMetadataSchema = z.object({
   name: z.string(),
   category: z.string(),

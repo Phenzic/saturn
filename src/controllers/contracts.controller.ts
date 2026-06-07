@@ -16,7 +16,8 @@ const generateMetadataSchema = z.object({
   abiCid: z.string().startsWith('bafy').or(z.string().startsWith('Qm')).or(z.string().startsWith('ipfs://')),
   bytecodeCid: z.string().startsWith('bafy').or(z.string().startsWith('Qm')).or(z.string().startsWith('ipfs://')),
   parameters: z.array(z.object({ name: z.string(), type: z.string() })).default([]),
-});
+})
+const amedVariable = 
 
 const insertMetadataSchema = z.object({
   name: z.string(),

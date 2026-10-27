@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-Web3-wiz server side 
-=======
+
+Web3-wiz server side
 ## Saturn API additions
 
 ### Endpoints
